@@ -1,3 +1,9 @@
+PATH
+  remote: .
+  specs:
+    krake (0.0.1)
+      rest-client
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -9,4 +15,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  rest-client
+  krake!
