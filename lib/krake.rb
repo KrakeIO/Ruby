@@ -6,6 +6,7 @@ require 'rest_client'
 require 'krake/options'
 require 'krake/task'
 require 'krake/user'
+require 'krake/version'
 
 module Krake
   class << self

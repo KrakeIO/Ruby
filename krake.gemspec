@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.files         = `git ls-files`.split($\)
   gem.name          = "krake"
   gem.require_paths = ["lib"]
-  gem.version       = "0.0.1"
+  gem.version       = Krake::Version
 
   gem.add_dependency "rest-client"
 end
